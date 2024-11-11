@@ -1,0 +1,10 @@
+require('me')
+require('config.lazy')
+
+require('config.fugitive')
+require('config.lsp_zero')
+require('config.lualine')
+require('config.ror')
+require('config.telescope')
+require('config.theme')
+require('config.treesitter')
