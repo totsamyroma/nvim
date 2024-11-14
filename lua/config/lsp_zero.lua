@@ -87,3 +87,10 @@ cmp.setup({
 	},
 	mapping = cmp.mapping.preset.insert({}),
 })
+
+cmp.setup.filetype({ 'sql', 'mysql' }, {
+	sources = {
+		{name = 'nvim_lsp'},
+		{name = 'vim-dadbod-completion'},
+	},
+})
